@@ -10,5 +10,3 @@ def ly(year):
             print("Not a leap year")
 year = int(input("Enter a year, please"))
 ly(year)
-
-
