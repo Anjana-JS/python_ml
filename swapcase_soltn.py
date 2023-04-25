@@ -9,3 +9,16 @@ for i in t:
         k+=i.lower()
 print(k)
 
+#Method 2: Let's create a function,dear one :)
+
+def swapi(k):
+    k = ""
+    for i in text:
+        if i.islower():
+            k += i.upper()
+        else:
+            k += i.lower()
+    print(k)
+text = input("My text to swap the cases is: ")
+swapi(text)
+
